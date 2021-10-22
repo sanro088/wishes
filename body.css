@@ -1,0 +1,125 @@
+body{
+    background-color:#0B0C10;
+    background-image: url("/home/rohith/Desktop/nature2.jpeg");
+    height:100%;
+    
+    background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  filter: none; 
+  -webkit-filter: blur(0px); 
+  -moz-filter: blur(0px); 
+  -ms-filter: blur(0px);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+
+
+  }
+  a{
+    text-decoration:none;
+  }
+
+
+.topimg
+{
+    display:block;
+    position: absolute;
+    border-radius: 50%;
+    height:18%;
+    width:12%;
+    margin-left:50%;
+    margin-right:50%;
+}
+h1{
+    padding-top: 10%;
+    padding-left:45%;
+}
+.block1
+{
+    background:#E27D60;
+    padding:20px;
+    word-spacing: 50px;
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#2F2FA2;
+}
+.img1
+{ 
+border-radius:50%;
+width:150px;
+height:200px;
+margin-left:20%;
+margin-top: 8%;
+-webkit-box-reflect: right;
+
+
+
+
+}
+.img2
+{
+    
+border-radius:50%;
+width:150px;
+height:200px;
+margin-left:20%;
+margin-top:9%;
+}
+.text1
+{
+    position:absolute;
+    
+    padding-left:200px;
+    float:left;
+    color:blue;
+  margin-top:11%;
+
+  
+
+}
+.text2
+{
+    position:absolute;
+    
+    float:left;
+    color:blue;
+    margin-top:32%;
+    padding-left:180px;
+}
+
+.vertical
+{
+  border-left:10px solid rgb(151, 135, 135);
+  height:600px;
+  position:absolute;
+  left:40%;
+  margin-top:7%;
+
+}
+
+.imgc
+{
+  width:40%;
+  height:70%;
+  margin-left:50%;
+  position:absolute;
+  margin-top:40px;
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    
+    .right {
+      width: 100%;
+    }
+  }
+    @media only screen and (max-width:500px) {
+        /* For mobile phones: */
+        .menu, .main, .right {
+          width: 100%;
+        }
+      }
+    
